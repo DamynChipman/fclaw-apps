@@ -3,8 +3,5 @@
 # --------------------------------------------
 
 # add_subdirectory(square)
-add_subdirectory(clawpack/euler/3d/MSH)
-
-
-
-
+# add_subdirectory(clawpack/euler/3d/MSH)
+add_subdirectory(hello)
