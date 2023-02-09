@@ -15,6 +15,8 @@ add_library(common INTERFACE)
 
 add_subdirectory(external)
 
+add_subdirectory(src)
+
 # # -- check if this being included as a subdirectory
 # list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/ForestClawExternalProject)
 

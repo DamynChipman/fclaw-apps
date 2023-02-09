@@ -16,7 +16,8 @@ FCLAW_APPS=${HOME}/packages/fclaw-apps
 FORESTCLAW_PATH=${HOME}/packages/forestclaw/forestclaw-build/local
 
 # ELLIPTICFOREST_PATH : Path to EllipticForest install (i.e., ${ELLIPTICFOREST_PATH}/include ${ELLIPTICFOREST_PATH}/lib, ...)
-ELLIPTICFOREST_PATH=${HOME}/packages/EllipticForest/build-develop/local
+# ELLIPTICFOREST_PATH=${HOME}/packages/EllipticForest/build-develop/local
+ELLIPTICFOREST_PATH=${HOME}/packages/EllipticForest/build-feature-hps-restructure/local
 
 # --=== Create build directory ===--
 BUILD_DIR=build-$(git branch --show-current)
